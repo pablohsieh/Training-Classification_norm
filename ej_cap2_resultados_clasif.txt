@@ -1,0 +1,42 @@
+Clasificacion de una muestra
+Se definio g = disc w_1 - disc w_3
+
+La cota P(error) dada por Bhattacharyya para 1 features es <= 0.3904
+La cota P(error) dada por Bhattacharyya para 2 features es <= 0.3217
+La cota P(error) dada por Bhattacharyya para 3 features es <= 0.2924
+
+1) Dada una muestra normal aleatoria: (10.89, 13.67, 9.54)
+   Analisis con 1 features:
+         La muestra=(10.89, ) pertenece a la clase w_3, porque g = -1.95
+   Analisis con 2 features:
+         La muestra=(10.89, 13.67, ) pertenece a la clase w_1, porque g = 3.20
+   Analisis con 3 features:
+         La muestra=(10.89, 13.67, 9.54, ) pertenece a la clase w_1, porque g = 2.59
+2) Dada una muestra normal aleatoria: (-1.74, -0.52, 1.70)
+   Analisis con 1 features:
+         La muestra=(-1.74, ) pertenece a la clase w_1, porque g = 1.77
+   Analisis con 2 features:
+         La muestra=(-1.74, -0.52, ) pertenece a la clase w_1, porque g = 3.63
+   Analisis con 3 features:
+         La muestra=(-1.74, -0.52, 1.70, ) pertenece a la clase w_1, porque g = 5.44
+3) Dada una muestra normal aleatoria: (4.49, 2.61, -0.11)
+   Analisis con 1 features:
+         La muestra=(4.49, ) pertenece a la clase w_3, porque g = -1.19
+   Analisis con 2 features:
+         La muestra=(4.49, 2.61, ) pertenece a la clase w_3, porque g = -2.06
+   Analisis con 3 features:
+         La muestra=(4.49, 2.61, -0.11, ) pertenece a la clase w_3, porque g = -1.77
+4) Dada una muestra normal aleatoria: (4.22, 4.36, 4.21)
+   Analisis con 1 features:
+         La muestra=(4.22, ) pertenece a la clase w_3, porque g = -1.11
+   Analisis con 2 features:
+         La muestra=(4.22, 4.36, ) pertenece a la clase w_3, porque g = -0.54
+   Analisis con 3 features:
+         La muestra=(4.22, 4.36, 4.21, ) pertenece a la clase w_3, porque g = -0.52
+5) Dada una muestra normal aleatoria: (12.49, 10.56, 11.66)
+   Analisis con 1 features:
+         La muestra=(12.49, ) pertenece a la clase w_3, porque g = -1.78
+   Analisis con 2 features:
+         La muestra=(12.49, 10.56, ) pertenece a la clase w_3, porque g = -3.54
+   Analisis con 3 features:
+         La muestra=(12.49, 10.56, 11.66, ) pertenece a la clase w_3, porque g = -4.98
